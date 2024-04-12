@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      
+}
+
+body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+header,
+footer {
+      background-color: #1f2937;
+      color: #f9faf8;
+}
+
+nav {
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+nav > ul {
+      display: flex;
+      gap: 26px;
+}
+
+nav > h1{
+      font-size: 24px;
+
+}
+
+a {
+      font-size: 18px;
+      color: #e5e7eb;
+}
+
+button {
+      padding: 8px 32px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 12px;
+      background-color: #3882f6;
+      color: #f9faf8;
+      font-weight: 700;
+}
+
+header {
+      height: 535px;
+      padding: 0 240px;
+      display: flex;
+      flex-direction: column;
+}
+
+header > section {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 55px;
+}
+
+header > section > div:first-child {
+      width: 450px;
+      height: 200px;
+}
+
+section > div > p:nth-child(2) {
+      line-height: 20px;
+}
+
+.title {
+      font-size: 48px;
+      font-weight: bolder;
+}
+
+header > section > .img-placeholder {
+      width: 520px;
+      height: 240px;
+      background-color: #808080;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
