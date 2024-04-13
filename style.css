@@ -83,6 +83,7 @@ header > section {
       height: 100%;
       gap: 32px;
       display: flex;
+      justify-content: space-between;
       align-items: center;
 }
 
@@ -152,6 +153,47 @@ header {
       padding: 0 240px;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+/* Call to action */
+.sign-up-container > .sign-up-box > div > strong {
+      font-size: 24px;
+}
+
+.button2 {
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #3882f6;
+      color: #f9faf8;
+      padding: 9px 36px;
+      border: 2px solid #f9faf8;
+      border-radius: 8px;
+}
+
+.sign-up-box {
+      background-color: #3882f6;
+      color: #f9faf8;
+      width: 1025px;
+      height: 150px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.sign-up-container {
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+/* footer */
+footer {
+      height: 100px;
+      display: flex;
       justify-content: center;
       align-items: center;
 }
